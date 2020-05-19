@@ -43,6 +43,7 @@
         var light = new BABYLON.HemisphericalLight('light1', new BABYLON.Vector3(0,1,0), scene);
         var sphere = BABYLON.MeshBuilder.CreateSphere('sphere', {segments:16, diameter:2}, scene);
         sphere.position.y = 1;
+        var ground = BABYLON.MeshBuilder.CreateGround('ground1', {height:6, width:6, subdivisions:2}, scene);
       }
   </script>
   
