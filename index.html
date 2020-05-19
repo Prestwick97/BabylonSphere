@@ -46,6 +46,10 @@
         var ground = BABYLON.MeshBuilder.CreateGround('ground1', {height:6, width:6, subdivisions:2}, scene);
         return scene;
       }
+      var scene = createScene();
+      engine.runRenderLoop(function() {
+      scene.render();
+      });
   </script>
   
 </body>
