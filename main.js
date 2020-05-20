@@ -24,7 +24,7 @@ window.addEventListener('DOMContentLoaded', function(){
   
   BABYLON.ParticleHelper.BaseAssetsUrl = "https://github.com/Prestwick97/BabylonSphere/blob/master/particleSet.json";
   // var star = BABYLON.ParticleHelper.ExportSet( [star] );
-  ExportSet(systems: IParticleSystem["star"]);
+  ExportSet(systems, IParticleSystem["star"]);
   var star = BABYLON.ParticleHelper.ExportSet( [includedPS1, includedPS2, includedPS3] ); 
 
   BABYLON.ParticleHelper.CreateAsync("star", scene).then(function(set) {
