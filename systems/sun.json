@@ -31,6 +31,11 @@
       "maxAngularSpeed":0.04,
       "minSize": 0.4,
       "maxSize":0.7,
+      "minScaleX":1,
+      "maxScaleX":1,
+      "minScaleY":1,
+      "maxScaleY":1,
+      ""
 
     }
   ]
