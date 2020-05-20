@@ -246,6 +246,12 @@
         "radiusRange":0,
         "directionRandomizer":0
       },
+      "textureName":"sun/T_SunSurface.png",
+      "animations": [],
+      "minAngularSpeed": 0,
+      "maxAngularSpeed": 0,
+      "minSize": 1,
+      "maxSive": 1,
       
     }
   ]
