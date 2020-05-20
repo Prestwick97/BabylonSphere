@@ -25,6 +25,8 @@
         "radiusRange":0,
         "directionRandomizer":0
       },
+      "textureName": "sun/T_SunSurface.png",
+      "animations":[],
     }
   ]
 }
