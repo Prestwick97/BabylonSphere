@@ -21,6 +21,7 @@ window.addEventListener('DOMContentLoaded', function(){
 
   // Lets create a sun effect made of 3 different particle system
   // Definition: https://assets.babylonjs.com/particles/systems/sun.json
+  BABYLON.ParticleHelper.BaseAssetsUrl = "https://github.com/Prestwick97/BabylonSphere/blob/master/particleSet.json";
   BABYLON.ParticleHelper.CreateAsync("fire", scene).then((set) => {
       set.start();
   });
