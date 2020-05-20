@@ -29,7 +29,8 @@
       "animations":[],
       "minAngularSpeed":-0.4,
       "maxAngularSpeed":0.04,
-      
+      "minSize": 0.4,
+      "maxSize":0.7,
 
     }
   ]
