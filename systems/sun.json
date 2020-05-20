@@ -35,7 +35,10 @@
       "maxScaleX":1,
       "minScaleY":1,
       "maxScaleY":1,
-      ""
+      "minEmitPower":0,
+      "maxEmitPower":0,
+      "minLifeTime":8,
+      "maxLifeTime":8,
 
     }
   ]
