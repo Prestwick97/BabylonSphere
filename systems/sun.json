@@ -27,6 +27,8 @@
       },
       "textureName": "sun/T_SunSurface.png",
       "animations":[],
+      "minAngularSpeed":-0.4,
+      
     }
   ]
 }
