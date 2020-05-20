@@ -242,7 +242,11 @@
       "capacity": 600,
       "particleEmitterType": {
         "type": "SphereParticleEmitter",
-      }
+        "radius": 1,
+        "radiusRange":0,
+        "directionRandomizer":0
+      },
+      
     }
   ]
 }
