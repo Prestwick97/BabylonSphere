@@ -141,6 +141,14 @@
       "maxAngularSpeed": 0,
       "minSize": 1,
       "maxSize": 1,
+      "minScaleX": 0.5,
+      "maxScaleX": 1,
+      "minScaleY": 0.5,
+      "maxScaleY": 1,
+      "minEmitPower": 0.001,
+      "maxEmitPower":0.01,
+      "minLifeTime": 10,
+      "maxLifeTime": 10,
     }
   ]
 }
