@@ -1,3 +1,6 @@
+import 'systems/star.json';
+
+
 window.addEventListener('DOMContentLoaded', function(){
   // get the canvas DOM element
   var canvas = document.getElementById('renderCanvas');
