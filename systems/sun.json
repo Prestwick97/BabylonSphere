@@ -290,7 +290,19 @@
       "preWarmCycles": 100,
       "preWarmStepOffset":10,
       "minInitialRotation":-6.3,
-      "maxInitialRotation":6.3
+      "maxInitialRotation":6.3,
+      "colorGradients":[
+        {
+          "gradient":0,
+          "color1":[
+            0.85,
+            0.47,
+            0.1,
+            0
+          ]
+        },
+        
+      ]
     }
   ]
 }
