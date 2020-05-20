@@ -18,13 +18,14 @@ window.addEventListener('DOMContentLoaded', function(){
   camera.wheelDeltaPercentage = 0.01;
 
   scene.clearColor = new BABYLON.Color3(0.0, 0.0, 0.0);
-
-  // Lets create a sun effect made of 3 different particle system
-  // Definition: https://assets.babylonjs.com/particles/systems/sun.json
+  
   BABYLON.ParticleHelper.BaseAssetsUrl = "https://github.com/Prestwick97/BabylonSphere/blob/master/particleSet.json";
-  BABYLON.ParticleHelper.CreateAsync("fire", scene).then((set) => {
-      set.start();
-  });
+  var myParticleSet = new BABYLON.ParticleHelper.CreateAsync("star", scene).then(function(set) {
+    set.start();
+});
+  // BABYLON.ParticleHelper.CreateAsync("fire", scene).then((set) => {
+  //     set.start();
+  // });
 
   return scene;
 }
