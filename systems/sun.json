@@ -256,6 +256,10 @@
       "maxScaleX": 1.2,
       "minScaleY":0.75,
       "maxScaleY":3,
+      "minEmiotPower": 0,
+      "maxEmitPower": 0,
+      "minLifeTime":2,
+      "maxLifeTime":2,
     }
   ]
 }
