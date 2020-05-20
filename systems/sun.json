@@ -127,7 +127,14 @@
     {
       "name": "flareParticles",
       "id": "flareParticles",
-      
+      "capacity": 20,
+      "renderingGroupId": 2,
+      "particleEmitterTypes": {
+        "type": "SphereParticleEmitter",
+        "radius": 1,
+        "radiusRange": 0,
+        "directionRandomizer": 0
+      },
     }
   ]
 }
