@@ -14,8 +14,8 @@
   },
   "systems":[
     {
-      "name": "sunSystem",
-      "id": "sunSystem",
+      "name": "redGiantSystem",
+      "id": "redGiantSystem",
       "capacity": 1600,
       "renderingGroupId": 3,
       "isBillBoardBased":false,
