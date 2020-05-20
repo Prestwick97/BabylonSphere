@@ -71,7 +71,9 @@
       "minInitialRotation": -6.3,
       "maxInitialRotation":6.3,
       "colorGradients":[
-        
+        {
+          
+        }
       ]
 
     }
