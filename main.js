@@ -23,9 +23,14 @@ window.addEventListener('DOMContentLoaded', function(){
   scene.clearColor = new BABYLON.Color3(0.0, 0.0, 0.0);
   
   BABYLON.ParticleHelper.BaseAssetsUrl = "https://github.com/Prestwick97/BabylonSphere/blob/master/particleSet.json";
-  var myParticleSet = new BABYLON.ParticleHelper.CreateAsync("star", scene).then(function(set) {
+  // var star = BABYLON.ParticleHelper.ExportSet( [star] );
+  ExportSet(systems: IParticleSystem["star"]);
+  var star = BABYLON.ParticleHelper.ExportSet( [includedPS1, includedPS2, includedPS3] ); 
+
+  BABYLON.ParticleHelper.CreateAsync("star", scene).then(function(set) {
     set.start();
 });
+
   // BABYLON.ParticleHelper.CreateAsync("fire", scene).then((set) => {
   //     set.start();
   // });
