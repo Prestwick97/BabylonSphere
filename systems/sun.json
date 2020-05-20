@@ -320,7 +320,21 @@
           ]
         }
       ],
-      "textureMask"
+      "textureMask": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "customShader":null,
+      "preventAutoStart":true,
+      "startSpriteCellID":0,
+      "endSpriteCellID":0,
+      "spriteCellLoop":true,
+      "spriteCellChangeSpeed":0,
+      "spriteCellWidth":0,
+      "spriteCellHeight":0,
+      "isAnimationSheetEnabled":false
     }
   ]
 }
