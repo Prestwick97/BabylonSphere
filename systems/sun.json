@@ -209,7 +209,17 @@
           ]
         }
       ],
-      "sizeGradients":[]
+      "sizeGradients":[
+        {
+          "gradient":0,
+          "factor1":0
+        },
+        {
+          "gradient": 1,
+          "factor1": 1
+        }
+      ],
+      "textureMask":[]
     }
   ]
 }
