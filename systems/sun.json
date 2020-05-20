@@ -260,6 +260,31 @@
       "maxEmitPower": 0,
       "minLifeTime":2,
       "maxLifeTime":2,
+      "emitRate":300,
+      "gravity": [
+        0,
+        0,
+        0
+      ],
+      "color1": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "color2": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "colorDead": [
+        0,
+        0,
+        0,
+        1
+      ],
+      
     }
   ]
 }
