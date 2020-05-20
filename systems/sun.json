@@ -284,7 +284,13 @@
         0,
         1
       ],
-      
+      "updateSpeed":0.01,
+      "targetStopDuration":0,
+      "blendMode":2,
+      "preWarmCycles": 100,
+      "preWarmStepOffset":10,
+      "minInitialRotation":-6.3,
+      "maxInitialRotation":6.3
     }
   ]
 }
