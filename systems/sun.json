@@ -124,6 +124,10 @@
       "spriteCellHeight": 0,
       "isAnimationSheetEnabled": false
     },
-    
+    {
+      "name": "flareParticles",
+      "id": "flareParticles",
+      
+    }
   ]
 }
