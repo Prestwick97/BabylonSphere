@@ -12,5 +12,19 @@
     },
     "renderingGroupId": 3
   },
-  "systems":[]
+  "systems":[
+    {
+      "name": "sunSystem",
+      "id": "sunSystem",
+      "capacity": 1600,
+      "renderingGroupId": 3,
+      "isBillBoardBased":false,
+      "particleEmitterType": {
+        "type":"SphereParticleEmitter",
+        "radius":1,
+        "radiusRange":0,
+        "directionRandomizer":0
+      },
+    }
+  ]
 }
