@@ -251,8 +251,11 @@
       "minAngularSpeed": 0,
       "maxAngularSpeed": 0,
       "minSize": 1,
-      "maxSive": 1,
-      
+      "maxSize": 1,
+      "minScaleX": 0.5,
+      "maxScaleX": 1.2,
+      "minScaleY":0.75,
+      "maxScaleY":3,
     }
   ]
 }
