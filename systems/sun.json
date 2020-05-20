@@ -239,7 +239,10 @@
       "name":"glareParticles",
       "id": "glareParticles",
       "renderingGroupId": 1,
-      
+      "capacity": 600,
+      "particleEmitterType": {
+        "type": "SphereParticleEmitter",
+      }
     }
   ]
 }
