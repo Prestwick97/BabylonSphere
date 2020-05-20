@@ -2,6 +2,7 @@ import 'systems/star.json';
 
 
 window.addEventListener('DOMContentLoaded', function(){
+
   var canvas = document.getElementById('renderCanvas');
 
   var engine = new BABYLON.Engine(canvas, true);
@@ -21,12 +22,11 @@ window.addEventListener('DOMContentLoaded', function(){
   
   BABYLON.ParticleHelper.BaseAssetsUrl = "https://github.com/Prestwick97/BabylonSphere/blob/master/particleSet.json";
 
-  ExportSet(systems, IParticleSystem["star"]);
-  var star = BABYLON.ParticleHelper.ExportSet( [includedPS1, includedPS2, includedPS3] ); 
+  var sun = new BABYLON.ParticleHelper.CreateAsync("star", scene);
 
-  BABYLON.ParticleHelper.CreateAsync("sun", scene).then(function(set) {
-    set.start();
-});
+  BABYLON.ParticleHelper.CreateAsync("sun", scene).then((set) => {
+      set.start();
+  });
 
   return scene;
 }
