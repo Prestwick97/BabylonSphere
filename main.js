@@ -1,8 +1,4 @@
-import 'systems/star.json';
-
-
-window.addEventListener('DOMContentLoaded', function(){
-
+ window.addEventListener('DOMContentLoaded', function(){
   var canvas = document.getElementById('renderCanvas');
 
   var engine = new BABYLON.Engine(canvas, true);
@@ -19,10 +15,9 @@ window.addEventListener('DOMContentLoaded', function(){
   camera.wheelDeltaPercentage = 0.01;
 
   scene.clearColor = new BABYLON.Color3(0.0, 0.0, 0.0);
-  
-  BABYLON.ParticleHelper.BaseAssetsUrl = "https://github.com/Prestwick97/BabylonSphere/blob/master/particleSet.json";
+  // BABYLON.ParticleHelper.BaseAssetsUrl = "https://github.com/Prestwick97/BabylonSphere/blob/master/particleSet.json";
 
-  var sun = new BABYLON.ParticleHelper.CreateAsync("star", scene);
+  // var sun = new BABYLON.ParticleHelper.CreateAsync("star", scene);
 
   BABYLON.ParticleHelper.CreateAsync("sun", scene).then((set) => {
       set.start();
@@ -33,9 +28,11 @@ window.addEventListener('DOMContentLoaded', function(){
 
   var scene = createScene();
 
+
   engine.runRenderLoop(function(){
       scene.render();
   });
+
 
   window.addEventListener('resize', function(){
       engine.resize();
