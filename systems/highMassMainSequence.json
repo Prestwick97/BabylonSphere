@@ -14,8 +14,8 @@
   },
   "systems":[
     {
-      "name": "redGiantSystem",
-      "id": "redGiantSystem",
+      "name": "highMassMainSequenceSystem",
+      "id": "highMassMainSequenceSystem",
       "capacity": 1600,
       "renderingGroupId": 3,
       "isBillBoardBased":false,
@@ -46,15 +46,15 @@
         0
       ],
       "color1": [
+        1,
+        1,
         1.3,
-        1,
-        1,
         1
       ],
       "color2": [
+        1,
+        1,
         1.3,
-        1,
-        1,
         1
       ],
       "colorDead": [
