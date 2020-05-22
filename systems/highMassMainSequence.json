@@ -125,8 +125,8 @@
       "isAnimationSheetEnabled": false
     },
     {
-      "name": "flareParticles",
-      "id": "flareParticles",
+      "name": "flareParticlesBlue",
+      "id": "flareParticlesBlue",
       "capacity": 20,
       "renderingGroupId": 2,
       "particleEmitterTypes": {
@@ -156,19 +156,19 @@
         0
       ],
       "color1": [
-        1.065,
         1,
         1,
+        1.05,
         1
       ],
       "color2": [
-        1.065,
         1,
         1,
+        1.02,
         1
       ],
       "colorDead": [
-        0.0001,
+        0,
         0,
         0,
         1
