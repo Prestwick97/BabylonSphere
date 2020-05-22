@@ -2,7 +2,7 @@
   "emitter": {
     "kind": "sphere",
     "options": {
-      "diameter": 180,
+      "diameter": 185,
       "segments": 32,
       "color": [
         0.04,
